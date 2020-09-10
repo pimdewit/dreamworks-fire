@@ -1,28 +1,17 @@
 {
   "name": "dreamworks-fire",
   "version": "0.1.0",
-  "private": true,
+  "author": "Pim de Wit <pim@pdw.io>",
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
+    "@types/lodash": "^4.14.161",
     "@types/node": "^12.0.0",
-    "@types/react": "^16.9.0",
-    "@types/react-dom": "^16.9.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "lodash-es": "^4.17.15",
     "react-scripts": "3.4.3",
     "typescript": "~3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "build": "react-scripts build"
   },
   "browserslist": {
     "production": [
